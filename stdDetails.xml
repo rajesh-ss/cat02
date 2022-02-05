@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="std.xsl"?>
+<CHRIST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="veh.xsd">
+  <COMPUTER_SCIENCE>
+  <STU_NAME>prasanth</STU_NAME>
+  <STU_UNIVERSITY>jain</STU_UNIVERSITY>
+  <STU_PHONE>9894442843</STU_PHONE>
+  <STU_EMAIL>prasanth@gmail.com</STU_EMAIL>
+  </COMPUTER_SCIENCE>
+  <COMPUTER_SCIENCE>
+    <STU_NAME>sriram</STU_NAME>
+    <STU_UNIVERSITY>anna university</STU_UNIVERSITY>
+    <STU_PHONE>9600610969</STU_PHONE>
+    <STU_EMAIL>sriram@hotmail.com</STU_EMAIL>
+    </COMPUTER_SCIENCE>
+    <COMPUTER_SCIENCE>
+        <STU_NAME>rajesh</STU_NAME>
+        <STU_UNIVERSITY>vit</STU_UNIVERSITY>
+        <STU_PHONE>8870078094</STU_PHONE>
+        <STU_EMAIL>rajesh@gmail.com</STU_EMAIL>
+        </COMPUTER_SCIENCE>
+</CHRIST>
