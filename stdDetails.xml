@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="std.xsl"?>
-<CHRIST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:noNamespaceSchemaLocation="veh.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<CHRIST>
   <COMPUTER_SCIENCE>
   <STU_NAME>prasanth</STU_NAME>
   <STU_UNIVERSITY>jain</STU_UNIVERSITY>

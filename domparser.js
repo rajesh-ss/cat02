@@ -8,7 +8,7 @@ function loadXMLDoc() {
     if (this.readyState == 4 && this.status == 200) {
         console.log("connected");
         stdsetails(this);
-        document.getElementById("display").innerHTML = "";
+        //document.getElementById("display").innerHTML = "";
   };
     }
 
@@ -21,24 +21,22 @@ function loadXMLDoc() {
 function stdsetails(xml) {
   var i;
   var xmlDoc = xml.responseXML;
-  var table = `<tr><th>student name</th><th>university name</th>
-                </tr>`;
+
+  var table = "<tr><th>student name</th><th>university name</th></tr>";
+
+  
 
   var x = xmlDoc.getElementsByTagName("COMPUTER_SCIENCE");
-
-  console.log(x[i].getElementsByTagName("STU_NAME")[0].childNodes[0].nodeValue);
-
-/* 
-    console.log(x[i].getElementsByTagName("STU_NAME").nodeValue); */
 
   for (i = 0; i < x.length; i++) {
     table +=
       "<tr><td>" +
       x[i].getElementsByTagName("STU_NAME")[0].childNodes[0].nodeValue +
       "</td><td>" +
-      x[i].getElementsByTagName("STU_UNIVERSITY")[0].childNodes[0].nodeValue;
-  }
-
-  // Print the xml data in table form
+      x[i].getElementsByTagName("STU_UNIVERSITY")[0].childNodes[0].nodeValue+
+      "</td></tr>" ;
+  } 
   document.getElementById("display").innerHTML = table;
+  // Print the xml data in table form
+  
 }

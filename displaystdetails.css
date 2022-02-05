@@ -1,42 +1,8 @@
-.container_middle_tb{
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   /*  border: 2px solid black;  */
-    color: var(--primary-font-color);
-    text-align: center;
-    margin:  50px 0;
-  }
-
-  .branch_det{
-    width: 200px;
-    height: 50px;
-    cursor: pointer;
-    background-color:var(--hightlight-font-back-color) ;
-    color:  #000;
-    border-style: none;
-    border-radius: 3px;
-    border: 2px solid var(--accent-color);
-    animation:  flash 3s ease-in 1s;
-    margin: 5px;
-    font-size: 20px;
+.table, th, td{
+    margin: 30px;
+    border: 1px solid black;
 }
 
-.branch_det:hover{
-    box-shadow: 0 0 15px var(--accent-color);
-}
-
-.display_branch{
-    margin-top: 20px;
-    border: 2px solid rgba(63, 57, 57, 0.61);
-   /*  border-radius: 10px; */
-    /*   */border-collapse: collapse;
-    padding: 5px;
-    width: 80%;
-}
-.display_branch td, .display_branch th{
-    border: 0.2px solid rgba(63, 57, 57, 0.61);
-   /*  padding: 5px; */
+button{
+    margin: 30px;
 }
